@@ -1,0 +1,54 @@
+:root{
+    --mainColor: #f9004d;
+    --blackColor: #101010;
+    --blackColor2: #191919;
+    --grayColor: hsla(0,0%,100%,.6);
+    --skyColor: #4db5ff;
+    --whiteColor: white;
+    --blackColor3: #272727;
+    --inputFieldColor: rgba(77,181,255,.4);
+    /* var(--..ColorName..) */
+}
+
+.Footer{
+    margin-top: 30px;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: var(--blackColor);
+}
+
+.FooterChild{
+    color: var(--whiteColor);
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.FooterName{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.FooterReach{
+    font-size: 20px;
+    line-height: 26px;
+    font-family: serif;
+}
+
+.icon{
+    margin: 7px;
+}
+
+.FooterRights,.FooterMade{
+    color: var(--mainColor);
+    font-weight: 600;
+    font-size: 20px;
+}
+.FooterChild > span{
+    color: #f9004d;
+    font-weight: 600;
+    margin-left: 5px;
+    font-size: 23px;
+}
